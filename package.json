@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Library Management System backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "youssefbushra16.4@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
+    "express-rate-limit": "^7.1.5",
+    "fast-csv": "^4.3.6",
+    "moment": "^2.29.4",
+    "pg": "^8.11.3"
+  }
+}
